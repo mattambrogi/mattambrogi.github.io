@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
+
+body{
+    font-family: Poppins;
+}
+
+
+a{
+    color:rgb(80, 79, 79);
+}
+
+.home{
+    color:black;
+    font-weight:bold;
+    font-size:28px;
+}
+
+
+
+#name{
+    margin-bottom:30px;
+    font-family: Poppins;
+    font-weight: normal;
+    color: black;
+    text-align:left;
+}
+
+
+#intro-p{
+    margin-bottom:30px;
+    font-weight:lighter;
+    font-size:20px;
+    line-height:2;
+}
+
+
+.project{
+    color:black;
+    margin-left:10px;
+}
+.project-name{
+    margin-top:10px;
+    font-size:30px;
+}
+
+.project-description{
+    margin-top:5px;
+    font-size: 14px;
+}
+
+.img-fluid{
+    float:left;
+    height: 150px;
+    width:150px;
+}
+
+
+
+
+
+
