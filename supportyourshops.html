@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title> Matt Ambrogi </title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+        crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" type="text/css" href="p_one_style.css">
+</head>
+
+<body>
+
+    <div class="container-fluid">
+        <div id="nav" class="row align-items-center text-center" style="height:150px">
+            <div class="col-md-3">
+                <a class="home" href="index.html">Matt Ambrogi</a>
+            </div>
+
+            <div class="col-md-6"> </div>
+
+            <div class="col-md-3 d-inline">
+                <div class="row">
+                    <div class="col-md-2">
+                    </div>
+                    <div class="col-md-6">
+                    </div>
+                    <div class="col-md-2">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- Project Intro -->
+        <div class="row mt-5" style="height:150px">
+            <div class="col-md-2"></div>
+            <div class="col-md-8 h-25">
+                <h2 style="font-weight:bold">Support Your Shops</h2>
+                <h4 class="mt-5">A crowdsourced, online directory of small businesses in my hometown</h4>
+            </div>
+            <div class="col-md-2"></div>
+
+
+
+        </div>
+
+        <div class="row pt-5">
+            <div class="col-md-2"></div>
+            <div class="col-md-8 d-flex flex-column">
+                <div  style= "padding-bottom:50px"> <!--class="video-responsive" -->
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/q01ZX5MNLWw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen>
+                    </iframe>
+                </div>
+                <h2>Overview</h2>
+                <p> 
+                    Support Your Shops is a directory of small businesses. The website was designed for businesses in Rockport and Gloucester Massachusetts, where I grew up. This was made at the beginning of the shut downs from covid-19 in March 2020.
+                </p>
+            
+                <h2 class="mt-5">Motivation</h2>
+                <p> 
+                    There are many small, family owned shops in my home town that rely on foot traffic. I was worried about the security of these businesses and wanted to know how I might be able to support them from afar. I realized there was no central place on the internet where I could figure this out. The closest thing was individually visiting the website of each business I was interested in. But many sites were outdated and I found that I couldn’t easily remember all the businesses that existed anyways. 
+                </p>
+                <p>
+                    I set out to build a directory to solve some of these problems. Users could see a list of businesses and filter by location and type. Each business would have some key relevant information about itself, such as their website and how to order online at the moment. 
+                </p>
+                <h2 class="mt-5">Tools</h2>
+                <p>
+                    I wanted to get this out really quickly because I knew businesses needed all the support they could get. I decided to take a no-code approach with Bubble. Technically, this was fairly simple. I created a database of businesses, each of which has a number of attributes such as location, category, and website url. I then set up an intake forum to feed this database so that the information could be crowd sourced. Lastly, was setting up a way to display these businesses based on different filters. 
+                </p>
+                <h2 class="mt-5">Design Decisions</h2>
+                <p>
+                    I was inspired by looking at a number of other directory based sites. A handful of different job boards provided great examples of how to layout an information based product like this. In the end, I decided users would want to be able to scroll through clean, informative cards for each business. They could see all businesses, filter by location, or type. Each card would tell them where the business was, what it was, and if there were delivery options. It would also display links to the businesses’ website, online store, and gift cards. 
+                </p>
+                <h2 class="mt-5">Lessons Learned</h2>
+                <p>
+                  The biggest takeaway from this project was one I have come to again and again. Simple is better. Shortly after building this, my town started distributing a spread sheet that was updated regularly and was only marginally less useful than this website. Later, for other cities, I began to see airtable spreadsheets, which can be filtered and sorted in the browser.
+                  Those are two solutions that are much easier to implement and provide a very similar experience.
+                </p>
+                <p>
+                    Still, I enjoyed learning about Repeating Groups in Bubble. These are the abstracted objects that allow me to, for example, load all shops where town == Rockport. Knowing how to build this quickly opens up a lot of other options that require catalogs of some sort. Job boards, shops, etc.
+                </p>
+                
+            </div>
+            <div class="col-md-2"></div>
+        </div>
+
+    </div>
+    <div class="row" style="height:75px">
+    </div>
+
+</body>
+
+</html>
